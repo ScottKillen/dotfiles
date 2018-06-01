@@ -6,4 +6,4 @@ Managed with the [GNU Stow](https://www.gnu.org/software/stow/) utility (read mo
 
 ## Author
 
-[Scott Killen](http://scottkillen.com/) <scott@scottkillen.com>
+[Scott Killen](http://scottkillen.com/) \<scott@scottkillen.com>
