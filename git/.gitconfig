@@ -1,0 +1,36 @@
+[user]
+	name = Scott Killen
+	email = scott@scottkillen.com
+[branch]
+	autosetupmerge = true
+	autosetuprebase = always
+[core]
+	autocrlf = input
+	excludesfile = Z:\\Dropbox\\Dropbox (KillenCPA)\\Personal\\gitignore_global.txt
+	excludefiles = /home/scott/.cvsignore
+	editor = /usr/bin/vim
+[push]
+	default = simple
+	followTags = true
+[credential]
+	helper = cache
+[color]
+	ui = true
+[merge]
+	tool = vimdiff
+[alias]
+	st = status
+	a = add
+	cm = commit
+	acm = commit
+	ps = push
+	pl = pull
+	co = checkout
+	br = branch
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+	compare = "fg() { git log --oneline ..;  }; f"
+[status]
+	submodulesummary = true
