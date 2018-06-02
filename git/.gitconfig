@@ -1,6 +1,7 @@
 [user]
 	name = Scott Killen
 	email = scott@scottkillen.com
+	signingkey = 23461FDA792D6D4E
 [branch]
 	autosetupmerge = true
 	autosetuprebase = always
@@ -34,3 +35,5 @@
 	compare = "fg() { git log --oneline ..;  }; f"
 [status]
 	submodulesummary = true
+[commit]
+	gpgsign = true
