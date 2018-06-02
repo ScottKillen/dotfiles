@@ -126,5 +126,3 @@ if ! shopt -oq posix; then
 fi
 
 export PATH="$HOME/bin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
