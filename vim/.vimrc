@@ -8,12 +8,14 @@ filetype plugin indent on
 "===============================================================================
 
 set background=dark
-set termguicolors
-colorscheme material-monokai
-let g:materialmonokai_italic=1
-let g:materialmonokai_subtle_spell=1
-let g:airline_theme='materialmonokai'
-highlight Comment cterm=italic
+let g:onedark_termcolors=256
+let g:onedark_terminal_italics=1
+let g:airline_theme='onedark'
+colorscheme onedark
+"let g:materialmonokai_italic=1
+"let g:materialmonokai_subtle_spell=1
+"let g:airline_theme='materialmonokai'
+"highlight Comment cterm=italic
 
 "===============================================================================
 " General Settings
