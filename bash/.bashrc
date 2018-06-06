@@ -75,6 +75,9 @@ xterm*|rxvt*)
     ;;
 esac
 
+# Only load Liquid Prompt in interactive shells, not from a script or from scp
+[[ $- = *i* ]] && source ~/src/liquidprompt/liquidprompt
+
 ### END PROMPT SETUP
 
 # enable color support of ls and also add handy aliases
