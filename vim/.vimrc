@@ -44,7 +44,7 @@ set fcs=vert:│
 set virtualedit=onemore
 
 " Turn on line number
-set number
+"set number
 
 " Always splits to the right and below
 set splitright
@@ -100,4 +100,3 @@ set viminfo='10,<0,s0,h,/100,:100,@0
 
 " w!!: Writes using sudo
 cnoremap w!! w !sudo tee % >/dev/null
-
