@@ -86,14 +86,16 @@ esac
 # enable color support of ls and also add handy aliases
 #-------------------------------------------------------------
 if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+  test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+  alias ls='ls -CF --color=auto'
+  #alias dir='dir --color=auto'
+  #alias vdir='vdir --color=auto'
 
-    alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
+  alias grep='grep --color=auto'
+  alias fgrep='fgrep --color=auto'
+  alias egrep='egrep --color=auto'
+else
+  alias ls='ls -CF'
 fi
 
 #-------------------------------------------------------------
@@ -122,7 +124,13 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-alias la='ls -lA'
+#-------------------------------------------------------------
+# Function definitions.
+#-------------------------------------------------------------
+
+if [ -f ~/.bash_functions ]; then
+    . ~/.bash_functions
+fi
 
 #-------------------------------------------------------------
 # Completions
@@ -142,22 +150,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-#-------------------------------------------------------------
-# pathadd: append $1 to $PATH if not already there
-#-------------------------------------------------------------
-pathadd()
-{
-[[ ":$PATH:" =~ ":$1:" ]] || PATH=$PATH${PATH:+:}$1  # append if NOT already in PATH, suppress first ':'
-}
-
-#-------------------------------------------------------------
-# addpath: prepend $1 to $PATH if not already there
-#-------------------------------------------------------------
-addpath()
-{
-[[ ":$PATH:" =~ ":$1:" ]] || PATH=$1${PATH:+:}$PATH  # prepend if NOT already in PATH, suppress first ':'
-}
 
 #-------------------------------------------------------------
 # Set path
