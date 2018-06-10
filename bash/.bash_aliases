@@ -1,8 +1,5 @@
 # vim: ai ts=2 sw=2 et sts=2 ft=sh
 
-alias cd..='cd ..'
-alias ...='cd ../..'
-
 alias bc='bc -l'
 alias cls='clear'
 alias fhere='find . -name '
