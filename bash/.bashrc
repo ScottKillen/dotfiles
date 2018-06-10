@@ -47,3 +47,8 @@ has() {
 # Include individual bash configuration files.
 #-------------------------------------------------------------
 source_everything_in ~/.bashrc.d
+
+#-------------------------------------------------------------
+# Include individual bash configuration files.
+#-------------------------------------------------------------
+try_to_source ~/src/liquidprompt/liquidprompt
