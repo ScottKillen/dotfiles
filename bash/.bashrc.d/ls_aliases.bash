@@ -1,0 +1,5 @@
+alias ll='ls -lA'
+alias ls='ls -hCF $__COLOR_OPTIONS'
+alias lsl='ls -lFA | less'
+alias dir='dir -h $__COLOR_OPTIONS'
+alias vdir='vdir -h $__COLOR_OPTIONS'
