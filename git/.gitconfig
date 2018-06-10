@@ -7,7 +7,7 @@
 	autosetuprebase = always
 [core]
 	autocrlf = input
-	excludesfile = Z:\\Dropbox\\Dropbox (KillenCPA)\\Personal\\gitignore_global.txt
+	excludesfile = /home/scott/.gitignore_global
 	excludefiles = /home/scott/.cvsignore
 	editor = /usr/bin/vim
 [push]
