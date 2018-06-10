@@ -49,6 +49,6 @@ has() {
 source_everything_in ~/.bashrc.d
 
 #-------------------------------------------------------------
-# Include individual bash configuration files.
+# Set up liquidprompt
 #-------------------------------------------------------------
-try_to_source ~/src/liquidprompt/liquidprompt
+try_to_source ~/liquidprompt/liquidprompt
