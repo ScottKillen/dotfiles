@@ -138,13 +138,6 @@ fi
 #-------------------------------------------------------------
 # Completions
 #-------------------------------------------------------------
-if [ -f ~/.bash/completions/git.completion.bash ]; then
-  . ~/.bash/completions/git.completion.bash
-fi
-
-if [ -f ~/.bash/completions/tmux.completion.bash ]; then
-  . ~/.bash/completions/tmux.completion.bash
-fi
 
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
@@ -152,6 +145,15 @@ if ! shopt -oq posix; then
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
   fi
+fi
+
+if [ -d ~/bash-completion.d ]; then
+  for i in  ~/bash-completion.d/*.bash; do
+    if [ -r $i ]; then
+      . '$i'
+    fi
+  done
+  unset i
 fi
 
 #-------------------------------------------------------------

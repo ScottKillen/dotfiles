@@ -30,6 +30,7 @@ alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
 
 alias rm='rm -Iv --one-file-system --preserve-root'
 alias stow='stow -v'
+alias t='todo-txt'
 alias wget='wget -c'
 
 # function checks if the application is installed
