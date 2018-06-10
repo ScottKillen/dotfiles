@@ -39,7 +39,9 @@ source_everything_in() {
   fi
 }
 
-has() { hash "$@" &>/dev/null }
+has() {
+  hash "$@" &>/dev/null
+}
 
 #-------------------------------------------------------------
 # Include individual bash configuration files.
