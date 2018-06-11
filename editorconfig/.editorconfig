@@ -6,25 +6,16 @@ root = true
 [*]
 end_of_line = lf
 charset = utf-8
-
-# Tab indentation
-indent_style = tabs
-
-# Make sure every file has a blank line at the end
-insert_final_newline = true
-
-# Remove any whitespace characters preceding newline characters
 trim_trailing_whitespace = true
-
-# Give operators breathing room, but not brackets
+insert_final_newline = true
+indent_style = space
+indent_size = 2
 spaces_around_operators = true
 spaces_around_brackets = false
 
-# JavaScript-specific settings
-[.js]
-quote_type = single
-curly_bracket_next_line = false
+[.txt]
+indent_style = tab
+indent_size = 4
 
-# HTML-specific settings
-[.html]
-quote_type = double
+[*.{diff,md}]
+trim_trailing_whitespace = false
