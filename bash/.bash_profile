@@ -12,11 +12,4 @@ if [ -f ~/.profile ]; then
 fi
 
 mesg n
-
-# run inxi information tool
-if [ -x "`which inxi 2>&1`" ]; then
-  printf "\n"
-  inxi -IpSCi -c30
-fi
-
 printf "\n"
