@@ -1,18 +1,18 @@
 [submodule "vim/.vim/bundle/delimitMate"]
-	path = vim/.vim/bundle/delimitMate
+	path = vim/.vim/pack/foo/start/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
 [submodule "vim/.vim/bundle/vim-airline"]
-	path = vim/.vim/bundle/vim-airline
+	path = vim/.vim/pack/foo/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule "vim/.vim/bundle/vim-code-dark"]
-	path = vim/.vim/bundle/vim-code-dark
+	path = vim/.vim/pack/foo/start/vim-code-dark
 	url = https://github.com/tomasiser/vim-code-dark.git
 [submodule "vim/.vim/bundle/vim-polyglot"]
-	path = vim/.vim/bundle/vim-polyglot
+	path = vim/.vim/pack/foo/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
 [submodule "vim/.vim/bundle/vim-sensible"]
-	path = vim/.vim/bundle/vim-sensible
+	path = vim/.vim/pack/foo/start/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
 [submodule "vim/.vim/bundle/vim-signify"]
-	path = vim/.vim/bundle/vim-signify
+	path = vim/.vim/pack/foo/start/vim-signify
 	url = https://github.com/mhinz/vim-signify.git
