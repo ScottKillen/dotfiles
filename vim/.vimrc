@@ -87,6 +87,12 @@ set whichwrap+=h,l,<,>,[,]
 " Disable viminfo
 set viminfo='10,<0,s0,h,/100,:100,@0
 
+" Mode dependent cursor
+let &t_ti.="\e[1 q"
+let &t_SI.="\e[5 q"
+let &t_EI.="\e[1 q"
+let &t_te.="\e[0 q"
+
 "===============================================================================
 " Command-line Mode Key Mappings
 "===============================================================================
