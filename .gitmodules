@@ -28,3 +28,6 @@
 [submodule "vim/.vim/pack/foo/start/editorconfig-vim"]
 	path = vim/.vim/pack/foo/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "vim/.vim/pack/foo/start/vim-helptags"]
+	path = vim/.vim/pack/foo/start/vim-helptags
+	url = https://github.com/Traap/vim-helptags.git
