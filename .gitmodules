@@ -19,15 +19,27 @@
 [submodule "vim/.vim/pack/foo/start/vim-surround"]
 	path = vim/.vim/pack/foo/start/vim-surround
 	url = https://github.com/tpope/vim-surround
-[submodule "vim/.vim/pack/foo/start/syntastic"]
-	path = vim/.vim/pack/foo/start/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
-[submodule "vim/.vim/pack/foo/start/syntastic-extras"]
-	path = vim/.vim/pack/foo/start/syntastic-extras
-	url = https://github.com/myint/syntastic-extras.git
 [submodule "vim/.vim/pack/foo/start/editorconfig-vim"]
 	path = vim/.vim/pack/foo/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
 [submodule "vim/.vim/pack/foo/start/vim-helptags"]
 	path = vim/.vim/pack/foo/start/vim-helptags
 	url = https://github.com/Traap/vim-helptags.git
+[submodule "vim/.vim/pack/foo/start/nerdtree"]
+	path = vim/.vim/pack/foo/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/.vim/pack/foo/start/supertab"]
+	path = vim/.vim/pack/foo/start/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "vim/.vim/pack/foo/start/BufOnly.vim"]
+	path = vim/.vim/pack/foo/start/BufOnly.vim
+	url = https://github.com/vim-scripts/BufOnly.vim.git
+[submodule "vim/.vim/pack/foo/start/tabular"]
+	path = vim/.vim/pack/foo/start/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "vim/.vim/pack/foo/start/vim-git-log"]
+	path = vim/.vim/pack/foo/start/vim-git-log
+	url = https://github.com/kablamo/vim-git-log.git
+[submodule "vim/.vim/pack/foo/start/vim-airline-themes"]
+	path = vim/.vim/pack/foo/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
