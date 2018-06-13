@@ -19,7 +19,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 #-------------------------------------------------------------
-# Utility functions used for including othe configuration
+# Utility functions used for including the configuration
 # files
 #-------------------------------------------------------------
 
