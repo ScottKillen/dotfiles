@@ -56,4 +56,4 @@ source_everything_in ~/.bashrc.d
 #-------------------------------------------------------------
 # Set up liquidprompt
 #-------------------------------------------------------------
-try_to_source ~/.liquidprompt/liquidprompt
+try_to_source /usr/share/liquidprompt/liquidprompt
