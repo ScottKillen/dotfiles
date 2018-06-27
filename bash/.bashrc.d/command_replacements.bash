@@ -18,6 +18,7 @@ function __add_command_replace_alias() {
 __add_command_replace_alias tail 'multitail'
 __add_command_replace_alias df 'pydf'
 __add_command_replace_alias du 'ncdu'
+__add_command_replace_alias mail 's-nail'
 __add_command_replace_alias traceroute 'mtr'
 __add_command_replace_alias tracepath 'mtr'
 __add_command_replace_alias top 'htop'
