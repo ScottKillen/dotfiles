@@ -61,4 +61,4 @@ try_to_source /usr/share/liquidprompt/liquidprompt
 #-------------------------------------------------------------
 # source stuff specific to thias machine
 #-------------------------------------------------------------
-try_to_source .${HOSTNAME}.bashrc
+try_to_source ~/.config/bashrc_${HOSTNAME}
