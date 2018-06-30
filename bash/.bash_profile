@@ -3,13 +3,9 @@
 # Source .bashrc as recommended here:
 # http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html
 
-if [ -f ~/.bashrc ]; then
-   source ~/.bashrc
-fi
+[[ -f ~/.bashrc ]] && . ~/.bashrc
 
-if [ -f ~/.profile ]; then
-   source ~/.profile
-fi
+[[ -f ~/.profile ]] && . ~/.profile
 
 mesg n
 printf "\n"

@@ -11,14 +11,6 @@ case $- in
 esac
 
 #-------------------------------------------------------------
-# Source global definitions (if any)
-#-------------------------------------------------------------
-
-if [ -f /etc/bashrc ]; then
-      . /etc/bashrc   # --> Read /etc/bashrc, if present.
-fi
-
-#-------------------------------------------------------------
 # Utility functions used for including the configuration
 # files
 #-------------------------------------------------------------
@@ -42,6 +34,12 @@ source_everything_in() {
 has() {
   hash "$@" &>/dev/null
 }
+
+#-------------------------------------------------------------
+# Source global definitions (if any)
+#-------------------------------------------------------------
+
+try_to_source /etc/bashrc
 
 #-------------------------------------------------------------
 # establish a sensible bash setup
