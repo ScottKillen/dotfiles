@@ -2,6 +2,6 @@
 # mcd: create directory and move there
 #-------------------------------------------------------------
 mcd () {
-  mkdir -p $1
+  mkdir --parents $1
   cd $1
 }
