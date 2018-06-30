@@ -1,13 +1,13 @@
-alias bc='bc -l'
+alias bc='bc --mathlib'
 alias cls='clear'
 alias fhere='find . -name '
-alias free='free -mht'
-alias mkdir='mkdir -pv'
-alias mv='mv -iv'
-alias rm='rm -Iv --one-file-system --preserve-root'
-alias stow='stow -v'
+alias free='free --mebi --human --total'
+alias mkdir='mkdir --parents --verbose'
+alias mv='mv --interactive --verbose'
+alias rm='rm --interactive=once --verbose --one-file-system --preserve-root'
+alias stow='stow --verbose'
 alias t='todo-txt'
-alias wget='wget -c'
+alias wget='wget --continue'
 
 function __add_command_replace_alias() {
   if has $2; then
