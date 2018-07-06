@@ -7,7 +7,7 @@ alias mkdir='mkdir --parents --verbose'
 alias mv='mv --interactive --verbose'
 alias rm='rm --interactive=once --verbose --one-file-system --preserve-root'
 alias stow='stow --verbose'
-alias t='todo-txt -c -d ~/.todo-config'
+alias t='todo-txt -c -d ~/.todoconfig'
 alias wget='wget --continue'
 
 function __add_command_replace_alias() {
