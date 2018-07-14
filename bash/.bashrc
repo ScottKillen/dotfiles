@@ -45,6 +45,7 @@ try_to_source /etc/bashrc
 # establish a sensible bash setup
 #-------------------------------------------------------------
 try_to_source ~/.sensible.bashrc
+stty -ixon
 
 #-------------------------------------------------------------
 # Include individual bash configuration files.
