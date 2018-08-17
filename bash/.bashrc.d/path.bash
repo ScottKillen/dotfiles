@@ -20,4 +20,5 @@ addpath()
 addpath ~/.local/bin
 addpath ~/bin
 addpath ~/gems/bin
+addpath ~/.global-modules/bin
 
