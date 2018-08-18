@@ -84,11 +84,11 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-colorscheme codedark
+colorscheme dracula
 highlight Comment cterm=italic
 
 " Airline
-let g:airline_theme = 'codedark'
+let g:airline_theme = 'dracula'
 let g:airline_powerline_fonts = 0
 
 """"""""""""""""""""""""""""""""
