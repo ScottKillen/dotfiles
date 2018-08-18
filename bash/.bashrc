@@ -61,3 +61,8 @@ try_to_source /usr/share/liquidprompt/liquidprompt
 # source stuff specific to thias machine
 #-------------------------------------------------------------
 try_to_source ~/.config/bashrc_${HOSTNAME}
+
+if [[ -x ~/bin/screenfetch ]]; then
+  ~/bin/screenfetch
+fi
+
