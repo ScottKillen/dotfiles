@@ -79,17 +79,19 @@ let &t_te.="\e[0 q"
 """"""""""""""""""""""""""""""""
 set t_co=256
 set background=dark
+let base16colorspace=256  " Access colors present in 256 colorspace"
 
 if (has("termguicolors"))
   set termguicolors
 endif
 
-colorscheme dracula
+" colorscheme base16-material-darker
+colorscheme base16-monokai
 highlight Comment cterm=italic
 
 " Airline
-let g:airline_theme = 'dracula'
 let g:airline_powerline_fonts = 1
+let g:airline_theme = 'base16_monokai'
 
 """"""""""""""""""""""""""""""""
 " Command-line Mode Key Mappings
