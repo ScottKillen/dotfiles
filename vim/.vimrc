@@ -89,7 +89,7 @@ highlight Comment cterm=italic
 
 " Airline
 let g:airline_theme = 'dracula'
-let g:airline_powerline_fonts = 0
+let g:airline_powerline_fonts = 1
 
 """"""""""""""""""""""""""""""""
 " Command-line Mode Key Mappings
