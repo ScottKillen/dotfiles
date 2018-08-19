@@ -53,9 +53,10 @@ stty -ixon
 source_everything_in ~/.bashrc.d
 
 #-------------------------------------------------------------
-# Set up liquidprompt
+# Set up prompt
 #-------------------------------------------------------------
-try_to_source /usr/share/liquidprompt/liquidprompt
+# try_to_source /usr/share/liquidprompt/liquidprompt
+try_to_source ~/bin/bash-powerline.sh
 
 #-------------------------------------------------------------
 # source stuff specific to thias machine
