@@ -79,14 +79,18 @@ let &t_te.="\e[0 q"
 """"""""""""""""""""""""""""""""
 set t_co=256
 set background=dark
-let base16colorspace=256  " Access colors present in 256 colorspace"
+let base16colorspace=256
 
 if (has("termguicolors"))
   set termguicolors
 endif
 
 " colorscheme base16-material-darker
-colorscheme base16-monokai
+" colorscheme base16-monokai
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
 highlight Comment cterm=italic
 
 " Airline

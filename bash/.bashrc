@@ -35,6 +35,7 @@ has() {
   hash "$@" &>/dev/null
 }
 
+export COLORTERM=truecolor
 #-------------------------------------------------------------
 # Source global definitions (if any)
 #-------------------------------------------------------------
@@ -59,7 +60,7 @@ try_to_source /usr/share/liquidprompt/liquidprompt
 # try_to_source ~/bin/bash-powerline.sh
 
 #-------------------------------------------------------------
-# source stuff specific to thias machine
+# source stuff specific to this machine
 #-------------------------------------------------------------
 try_to_source ~/.config/bashrc_${HOSTNAME}
 
@@ -67,3 +68,8 @@ if [[ -x ~/bin/screenfetch ]]; then
   ~/bin/screenfetch
 fi
 
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+        eval "$("$BASE16_SHELL/profile_helper.sh")"
