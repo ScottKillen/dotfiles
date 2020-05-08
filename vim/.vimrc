@@ -85,17 +85,11 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-"colorscheme base16-material-darker
-"colorscheme base16-monokai
-"if filereadable(expand("~/.vimrc_background"))
-"  let base16colorspace=256
-"  source ~/.vimrc_background
-"endif
-"highlight Comment cterm=italic
+colorscheme base16-irblack
 
 " Airline
 let g:airline_powerline_fonts = 1
-" let g:airline_theme = 'base16_ocean'
+let g:airline_theme = 'jellybeans'
 
 """"""""""""""""""""""""""""""""
 " Command-line Mode Key Mappings
