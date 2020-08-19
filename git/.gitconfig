@@ -22,12 +22,17 @@
 	tool = vimdiff
 [alias]
 	st = status
-	a = add
-	cm = commit
-	acm = commit
+  a = add
+  c = commit --verbos
+  ca = commit -a --verbose
+  cm = commit -a -m
+  m = commit --amend --verbose
+  d = diff
 	ps = push
 	pl = pull
-	co = checkout
+  co = checkout
+  # list branches
+  lb = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
 	br = branch
 	unstage = reset HEAD --
 	last = log -1 HEAD
