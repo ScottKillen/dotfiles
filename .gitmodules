@@ -43,3 +43,6 @@
 [submodule "vim/.vim/pack/foo/start/vim-surround"]
 	path = vim/.vim/pack/foo/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "figlet/.config/figlet-fonts"]
+	path = figlet/.config/figlet-fonts
+	url = https://github.com/xero/figlet-fonts.git

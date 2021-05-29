@@ -1,0 +1,1 @@
+export FIGLET_FONTDIR="$HOME/.config/figfonts"
