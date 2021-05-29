@@ -28,9 +28,6 @@
 [submodule "vim/.vim/pack/foo/start/supertab"]
 	path = vim/.vim/pack/foo/start/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "vim/.vim/pack/foo/start/tabular"]
-	path = vim/.vim/pack/foo/start/tabular
-	url = https://github.com/godlygeek/tabular.git
 [submodule "vim/.vim/pack/foo/start/vim-git-log"]
 	path = vim/.vim/pack/foo/start/vim-git-log
 	url = https://github.com/kablamo/vim-git-log.git
