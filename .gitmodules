@@ -40,3 +40,6 @@
 [submodule "vim/.vim/pack/foo/start/vim-git-log"]
 	path = vim/.vim/pack/foo/start/vim-git-log
 	url = https://github.com/kablamo/vim-git-log.git
+[submodule "vim/.vim/pack/foo/start/vim-surround"]
+	path = vim/.vim/pack/foo/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
