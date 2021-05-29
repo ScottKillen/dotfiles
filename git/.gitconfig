@@ -1,7 +1,7 @@
 [user]
 	name = Scott Killen
 	email = scott@scottkillen.com
-	signingkey = C0C53344752B0AE73678864F23461FDA792D6D4E
+	signingkey = 6E86FD2CBEEBF43CF672A871DA7DDF9CA0628EAD
 [branch]
 	autosetupmerge = true
 	autosetuprebase = always
