@@ -37,3 +37,9 @@
 [submodule "vim/.vim/pack/foo/start/tabular"]
 	path = vim/.vim/pack/foo/start/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "vim/.vim/pack/foo/start/vim-sensible"]
+	path = vim/.vim/pack/foo/start/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "vim/.vim/pack/foo/start/vim-git-log"]
+	path = vim/.vim/pack/foo/start/vim-git-log
+	url = https://github.com/kablamo/vim-git-log.git
