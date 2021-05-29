@@ -10,9 +10,6 @@
 [submodule "vim/.vim/bundle/vim-signify"]
 	path = vim/.vim/pack/foo/start/vim-signify
 	url = https://github.com/mhinz/vim-signify.git
-[submodule "vim/.vim/pack/foo/start/vim-surround"]
-	path = vim/.vim/pack/foo/start/vim-surround
-	url = https://github.com/tpope/vim-surround
 [submodule "vim/.vim/pack/foo/start/editorconfig-vim"]
 	path = vim/.vim/pack/foo/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
