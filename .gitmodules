@@ -7,9 +7,6 @@
 [submodule "vim/.vim/bundle/vim-polyglot"]
 	path = vim/.vim/pack/foo/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
-[submodule "vim/.vim/bundle/vim-sensible"]
-	path = vim/.vim/pack/foo/start/vim-sensible
-	url = https://github.com/tpope/vim-sensible.git
 [submodule "vim/.vim/bundle/vim-signify"]
 	path = vim/.vim/pack/foo/start/vim-signify
 	url = https://github.com/mhinz/vim-signify.git
