@@ -1,3 +1,4 @@
-export DISPLAY=127.0.0.1:0.0
-
 try_to_source ~/.config/base16-shell/scripts/base16-irblack.sh
+
+echo ${HOSTNAME} | toilet | lolcat
+screenfetch-dev
