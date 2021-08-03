@@ -2,7 +2,8 @@
 " Scott Killen vim configuration
 """"""""""""""""""""""""""""""""
 set nocompatible
-syntax on
+packadd! dracula_pro
+syntax enable
 set nowrap
 set encoding=utf8
 filetype plugin indent on
@@ -80,16 +81,17 @@ let &t_te.="\e[0 q"
 set t_co=256
 set background=dark
 let base16colorspace=256
+let g:dracula_colorterm = 0
 
 if (has("termguicolors"))
   set termguicolors
 endif
 
-colorscheme base16-irblack
+colorscheme dracula_pro_van_helsing
 
 " Airline
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'jellybeans'
+let g:airline_theme = 'dracula_pro'
 
 """"""""""""""""""""""""""""""""
 " Command-line Mode Key Mappings
