@@ -15,7 +15,7 @@
 	default = simple
 	followTags = true
 [credential]
-	helper = cache
+	helper = store
 [color]
 	ui = true
 [merge]
