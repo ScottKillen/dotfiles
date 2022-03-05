@@ -75,4 +75,7 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
         eval "$("$BASE16_SHELL/profile_helper.sh")"
 
 # Only load liquidprompt in interactive shells, not from a script or from scp
-echo $- | grep -q i 2>/dev/null && . /usr/share/liquidprompt/liquidprompt
+# echo $- | grep -q i 2>/dev/null && . /usr/share/liquidprompt/liquidprompt
+
+# load starship
+eval "$(starship init bash)"
