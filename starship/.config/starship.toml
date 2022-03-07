@@ -1,15 +1,25 @@
 # Inserts a blank line between shell prompts
 add_newline = true
 
+[aws]
+style = "bold #ffb86c"
+
 # Replace the "❯" symbol in the prompt with "➜"
 [character] # The name of the module we are configuring is "character"
-success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
-error_symbol = "[✗](bold red) "
+success_symbol = "[➜](bold #f8f8f2)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = "[✗](bold #ff5555) "
+
+[cmd_duration]
+style = "bold #f1fa8c"
+
+[directory]
+style = "bold #50fa7b"
 
 [git_branch]
 symbol = "🌱 "
 truncation_length = 4
 truncation_symbol = ""
+style = "bold #ff79c6"
 
 [git_state]
 format = '[\($state( $progress_current of $progress_total)\)]($style) '
@@ -27,6 +37,10 @@ modified = "📝"
 staged = '[++\($count\)](green)'
 renamed = "👅"
 deleted = "🗑"
+style = "bold #ff5555"
+
+[hostname]
+style = "bold #ff5555"
 
 [package]
 format = "via [🎁 $version](208 bold) "
@@ -35,3 +49,7 @@ format = "via [🎁 $version](208 bold) "
 style = "bold green"
 symbol = "👩‍💻 "
 disabled = false
+
+[username]
+format = "[$user]($style) on "
+style_user = "bold #bd93f9"
