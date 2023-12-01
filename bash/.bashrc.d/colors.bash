@@ -1,6 +1,7 @@
 #-------------------------------------------------------------
 # enable color support
 #-------------------------------------------------------------
+export COLORTERM=truecolor
 if [ -x /usr/bin/dircolors ]; then
   test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
   export __COLOR_OPTIONS='--color=auto'
