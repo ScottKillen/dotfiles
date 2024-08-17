@@ -34,3 +34,11 @@ addpath ~/bin
 addpath ~/gems/bin
 addpath ~/.global-modules/bin
 
+#-------------------------------------------------------------
+# Set up Ruby environment
+#-------------------------------------------------------------
+eval "$(rbenv init -)"
+
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+

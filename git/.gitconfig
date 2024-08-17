@@ -55,3 +55,8 @@
 	old = red bold
 	new = green bold
 	whitespace = red reverse
+[rerere]
+	enabled = true
+	autoUpdate = true
+[init]
+	defaultBranch = master
