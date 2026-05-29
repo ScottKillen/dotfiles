@@ -4,6 +4,4 @@ Managed with the [GNU Stow](https://www.gnu.org/software/stow/) utility (read mo
 
 [MIT](https://opensource.org/licenses/MIT)
 
-## Author
-
-[Scott Killen](http://scottkillen.com/) \<scott@scottkillen.com>
+This project has moved to https://codeberg.org/nellik/.dotfiles
